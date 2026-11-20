@@ -161,10 +161,20 @@ Real behavior must be evaluated manually on the target Kimi Code, model, permiss
 
 ## Feedback
 
-Send Kimi or Kimi Code behavior feedback to [chenshuidelaye@qq.com](mailto:chenshuidelaye@qq.com). Include the model identifier and version, Kimi Code version, permission mode, minimal reproduction, actual behavior, expected behavior, and redacted evidence. Do not send secrets, tokens, customer data, personal paths, or unredacted logs. Reproducible results are recorded under `tests/model-evals/`.
+You can report a problem directly; a full reproduction or logs are not required. Please tell us:
+
+- The problem you encountered;
+- The model you used;
+- The shell/host you used (for example, the client, CLI, or agent host you actually used).
+
+Send it through [GitHub Issues](https://github.com/Fallen-leaves089/kimi-grounded-audit/issues) or `chenshuidelaye@qq.com`. Do not send secrets, tokens, customer data, or personal paths.
 
 ## License
 
+> **Main-project license boundary**: This repository is a host/model-specific skill in the `grounded-audit` ecosystem and is related to the `project-health` main project.
+> The main project uses the **PolyForm Noncommercial License 1.0.0** and is noncommercial only; commercial use requires separate written permission from its author.
+> This repository is fully open source under **Apache License 2.0**; commercial use, modification, and distribution are permitted. The two are licensed separately, and Apache-2.0 does not change the main project's noncommercial license.
+
 Apache License 2.0. Commercial use, modification, and distribution are permitted; retain the attribution notices in the license and `NOTICE`.
 
-This project is an independent evolution of the `project-health` audit philosophy. It does not include the original project's pitfall corpus, platform manuals, or source code.
+This repository is a host/model-specific skill in the `grounded-audit` ecosystem and is related to the `project-health` main project. It does not include the main project's pitfall corpus, platform manuals, or source code.
